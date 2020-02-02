@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "shemSvcollege.github.io/TestSvcollege/precache-manifest.c9950cd419b72f206eaebaff31adda4a.js"
+  "shemSvcollege.github.io/TestSvcollege/precache-manifest.ef56cde5c5637451b23e91c011a2c05a.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("shemSvcollege.github.io/TestSvcollege/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
